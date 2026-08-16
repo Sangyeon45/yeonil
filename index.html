@@ -41,6 +41,11 @@ nav#mainNav.mobile-open{display:flex}nav#mainNav a{display:block;padding:14px 4p
 .photo-lightbox-prev,.photo-lightbox-next{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border:0;border-radius:50%;background:rgba(0,0,0,.60);color:#fff;font-size:30px;cursor:pointer;z-index:2}
 .photo-lightbox-prev{left:16px}.photo-lightbox-next{right:16px}
 @media(max-width:800px){.photo-lightbox{padding:12px}.photo-lightbox img{max-width:94vw;max-height:82vh}.photo-lightbox-prev,.photo-lightbox-next{width:40px;height:40px;font-size:26px}}
+@media (min-width: 801px) {
+  #facilityGallery figcaption {
+    display: none;
+  }
+}
 </style></head><body>
 <header><div class="wrap nav"><a class="brand" href="#home">연일화학<small>YEONIL CHEMICAL</small></a>
 <button class="menu" id="menuButton" aria-label="메뉴 열기" aria-expanded="false" type="button" onclick="toggleMenu()">☰</button>
